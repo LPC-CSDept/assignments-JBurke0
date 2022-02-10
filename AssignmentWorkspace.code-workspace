@@ -1,3 +1,6 @@
 {
-	"folders": []
+	"folders": [],
+	"settings": {
+		"C_Cpp.errorSquiggles": "Disabled"
+	}
 }
