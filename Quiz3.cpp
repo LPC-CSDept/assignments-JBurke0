@@ -5,22 +5,24 @@
 using namespace std;
 
 int main()
-{ float total;
+{ 
+    cout<<fixed<<setprecision(5);
+    double total;
    srand(time(0));
 
-	float i;
+	double i;
 
 	i = rand();
 
 	cout << i << endl;
 
-    float x;
+    double x;
 
-	x = rand() ;
+	x = rand();
 
 	cout << x << endl;
 
-      float y;
+      double y;
 
 	y = rand();
 
@@ -28,5 +30,7 @@ int main()
 
     
     total=(i+x+y);
+
     cout << total; 
+}
    
