@@ -31,6 +31,9 @@ int main()
     
     total=(i+x+y);
 
-    cout <<"i+x+y=" <<total<<endl; 
+    cout <<"(i+x+y)=" <<total<<endl; 
+double average;
+    average=total/3;
+    cout<<"average="<<average<<endl;
 }
    
