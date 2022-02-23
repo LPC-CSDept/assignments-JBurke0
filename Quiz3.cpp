@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 { 
-    cout<<fixed<<setprecision(5);
+    cout<<setprecision(5);
     double total;
    srand(time(0));
 
@@ -14,23 +14,23 @@ int main()
 
 	i = rand();
 
-	cout << i << endl;
+	cout << "i="<<i << endl;
 
     double x;
 
 	x = rand();
 
-	cout << x << endl;
+	cout << "x="<<x << endl;
 
       double y;
 
 	y = rand();
 
-	cout << y << endl;
+	cout <<"y=" <<y << endl;
 
     
     total=(i+x+y);
 
-    cout << total; 
+    cout <<"i+x+y=" <<total<<endl; 
 }
    
