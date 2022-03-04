@@ -15,11 +15,15 @@ int main()
 	cout << "Quit";
 	cin >> choice;
 
+double width,height,radius,length,base;
+double AreaCircle,AreaRectangle,AreaTriangle;
     switch(choice)
-    double width,height,radius,length,base;
+    
      {
 		case 1:	
-        	
+            cout << "Enter raduis"<<endl;
+            cin>>radius;
+            AreaCircle=pow(radius,2)*3.14159;
 			cout << "Area of Circle" << endl;
 			break;
 		case 2:		
