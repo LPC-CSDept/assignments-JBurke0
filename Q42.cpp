@@ -11,6 +11,9 @@ int main()
   cin>>miles;
     cout << "Enter the weight of the package "<<endl;
 cin>> weight;
+if (weight>0 && weight>20) 
+if (miles>10&&3000)
+{
    i=miles/500;
    x=miles/500;
    if(x>0){
@@ -28,6 +31,7 @@ cin>> weight;
    if(weight>10 && weight<=20){
        cost=i*4.80;
    }
-   cout << "Cost of Shipping: "<< cost;
+   cout << "Cost of Total Cost of Shipping: "<< cost;
    return 0;
+}
 }
