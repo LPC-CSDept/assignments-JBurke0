@@ -9,8 +9,10 @@ int main()
   double x, weight,cost,miles;
   cout<<"Enter number of miles "<<endl;
    cin>>miles;
+   if (miles>10&&miles<3000)
    cout<< "Enter the weight of the package: "<<endl;
    cin>>weight;
+   if (weight>0 && weight<20)
    i=miles/500;
    x=miles/500;
    if(x>0){
