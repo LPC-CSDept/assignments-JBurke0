@@ -13,7 +13,7 @@ int main()
 	cout << "1.Calculate Area of Circle"<< endl;
 	cout << "2.Calculate Area of Rectangle"<< endl;
 	cout << "3.Calculate Area of Triangle"<< endl;
-	cout << "Quit";
+	cout << "4.Quit";
 	cin >> choice;
 
 double width,height,radius,length,base;
@@ -22,26 +22,31 @@ double AreaCircle,AreaRectangle,AreaTriangle;
     
      {
 		case 1:	
-            cout << "Enter raduis"<<endl;
+            cout << "Enter radius"<<endl;
             cin>>radius;
-            AreaCircle=pow(radius,2)*3.14159;
+            AreaCircle=radius^pow(2)*3.14159;
 			cout << "Area of Circle"<<AreaCircle<< endl;
 			break;
 		case 2:	
             cout<<"Enter length"<<endl;
-            cin>>length>>endl;
+            cin>>length;
             cout<<"Enter width"<<endl;
-            cin>>width<<endl;
+            cin>>width;
             AreaRectangle=length*width;	
 			cout << "Area of Rectangle" << AreaRectangle << endl;
 			break;
-		case 3:		
-			cout << "Area of Triangle" << endl;
+		case 3:	
+            cout<<"Enter base"<<endl;
+            cin>>base;
+            cout<<"Enter height"<<endl;
+            cin>>height;
+            AreaTriangle=base*height*0.5;
+			cout << "Area of Triangle"<< AreaTriangle << endl;
 			break;
 		case 4:		
-			cout << "You chose menu 4\n";
+			cout << "You chose choice 4";
 			break;
 		default:	
-			cout << "Wrong menu item \n";
+			cout << "Quit";
 	}
 }
