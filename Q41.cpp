@@ -2,6 +2,7 @@
 #include <cstdlib> 
 #include <ctime> 
 #include<iomanip>
+#include<iopath>
 using namespace std;
 
 int main()
@@ -24,10 +25,15 @@ double AreaCircle,AreaRectangle,AreaTriangle;
             cout << "Enter raduis"<<endl;
             cin>>radius;
             AreaCircle=pow(radius,2)*3.14159;
-			cout << "Area of Circle" << endl;
+			cout << "Area of Circle"<<AreaCircle<< endl;
 			break;
-		case 2:		
-			cout << "Area of Rectangle" << endl;
+		case 2:	
+            cout<<"Enter length"<<endl;
+            cin>>length>>endl;
+            cout<<"Enter width"<<endl;
+            cin>>width<<endl;
+            AreaRectangle=length*width;	
+			cout << "Area of Rectangle" << AreaRectangle << endl;
 			break;
 		case 3:		
 			cout << "Area of Triangle" << endl;
