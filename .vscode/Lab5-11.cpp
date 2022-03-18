@@ -9,7 +9,7 @@ int main()
 
 int flag ;
 
-for(int current_num=0;	current_num<=100; current_num++) 
+for(int current_num=1;	current_num<=100; current_num++) 
 {
 	flag = 0;
 	for(int i=2;i<=current_num/2;i++)
