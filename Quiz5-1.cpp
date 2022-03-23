@@ -27,13 +27,15 @@ int main()
 
 
 			int 	min=0;
-
+			int i;
+num1,num2,num3,num4,num5=i;
 			for(int i=0;i< 5; i++)
 			{
 
-				if ( (i == 0) || (min > num1,num2,num3,num4,num5) )
-					min = num1,num2,num3,num4,num5;
-			}
+				if ( (i == 0) || (min > num1)or(min>num2)or(min>num3)or(min>num4)or(min>num5) )
+
+min =i;
+
 			cout << " Minimum value of input is " << min << endl;
-}
+			}
 }
