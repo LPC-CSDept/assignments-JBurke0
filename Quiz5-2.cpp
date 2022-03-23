@@ -10,6 +10,10 @@ int main()
     cin>>base;
     cout<<"Enter to the power of"
     cin>>power;
-    int i;
-    for (i=2;i)
+    
+    while (power !=0)
+    {
+        result*=base;
+        
+    }
 }
