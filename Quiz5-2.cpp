@@ -6,14 +6,14 @@
 using namespace std;
 int main()
 {
-    cout<<"Enter base"<<endl;
-    cin>>base;
-    cout<<"Enter to the power of"
-    cin>>power;
-    
-    while (power !=0)
-    {
-        result*=base;
-        
-    }
+	double base,exponent;
+	cout<<"Enter a base"<<endl;
+	cin>>base;
+	cout<<"Enter a exponent"<<endl;
+	cin>>exponent;
+if base>0 && base<10 && exponent>=1 && exponent<=10
+{
+for (
+	
+
 }
