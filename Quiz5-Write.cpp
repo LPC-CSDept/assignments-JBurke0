@@ -22,7 +22,7 @@ int main()
 	cin >> Name;
 	ofs << Name << endl; 
 
-	for (int i=0; i<numofStudent; i++){
+	for (int i=0; i<Name; i++){
 		cin >>EmployeeID>> Name >> Department >> Salary ;
 		ofs <<EmployeeID<< Name <<Department << Salary ; << endl;
 	}
