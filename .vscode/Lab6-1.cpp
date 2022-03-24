@@ -18,4 +18,4 @@ int main ()
         exit(0);
 
         getListprime(begin,end);
-        ]
+}
