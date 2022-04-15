@@ -22,3 +22,4 @@ for(int i=0;i<5;i++){
 }
 return 1;
 }
+void swapTwoValues(int n1, int n2)
