@@ -23,3 +23,11 @@ for(int i=0;i<5;i++){
 return 1;
 }
 void swapTwoValues(int n1, int n2)
+int n1;
+n1=n2;
+int n2;
+}
+void swapTwoValues(float f1, float f2)
+float n1;
+n1=n2;
+float n2;
