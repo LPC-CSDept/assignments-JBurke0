@@ -24,7 +24,18 @@ int isSame()
 
 int isDivision()
 {
-if inputX > inputY {
-    
+if inputX > inputY { (inputX/inputY)
+   
 }
+else inputX<inputY{
+    (inputY/inputX)
+}
+}
+
+int FileWrite
+{
+  
+
+	ofs.stream file;
+    file.open("question5.txt")
 }
