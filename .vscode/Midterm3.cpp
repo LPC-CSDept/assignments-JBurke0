@@ -10,17 +10,18 @@ int getRdnum()
 
 {
     srand(time(0));
-    cout<<rand()%50+1;
+    cout<<rand()%50+1=i;
 }
 
 
-int isGreater(int n)
+int isGreater(int N)
 
 {
-   for (int i = 2; i < n / 2; i++)
-
+   for (int i < N )
+srand(time(0));
+    cout<<rand()%50+1=N; 
     {
-        if (n % i == 0)
+        if (i<N)
             return 0;
     }
     return 1;
@@ -40,10 +41,14 @@ int main()
         cout << "File Error"<<endl;
         return 0;
     }
-int n;
-  for (int i = 0; i < n; i++)
+int N;
+  for (int i = 0; i < N; i++)
 
     {
         int num = getRdnum();
-    
+        if (isGreater(num))
+            output << num <<endl;
+    }
+
+    output.close();
 }
