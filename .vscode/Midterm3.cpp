@@ -7,16 +7,20 @@
 using namespace std;
 
 int getRdnum()
-int i,N;
+
+
 {
+    int i,N;
     srand(time(0));
     cout<<rand()%50+1=i;
 }
 
 
 int isGreater(int N)
-int i,N;
+
+
 {
+    int i,N;
    if (int i < N )
 srand(time(0));
     cout<<rand()%50+1=N; 
