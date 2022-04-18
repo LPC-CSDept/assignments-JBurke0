@@ -30,7 +30,7 @@ int isGreater(int n)
 int main()
 
 {
-    
+
     srand(time(0));
 
     ofstream output("numbers.txt");
@@ -40,4 +40,10 @@ int main()
         cout << "File Error"<<endl;
         return 0;
     }
+int n;
+  for (int i = 0; i < n; i++)
 
+    {
+        int num = getRdnum();
+    
+}

@@ -36,8 +36,8 @@ else (inputX<inputY)
 
 void FileWrite()
 {
-  
-	ofs.stream file;
+  ofstream output("question5.txt")
+	ofs.stream question5;
     file.open("question5.txt")
     if (file_.is_open()){
         file_<<"intputX is:"<<iinputX<<"Input Y is:":<< "Total is:"<<total<<;
