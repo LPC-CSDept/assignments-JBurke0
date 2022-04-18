@@ -7,7 +7,7 @@
 using namespace std;
 int inputX,inputY,total;
 
-int getInput()
+void getInput()
 {
 cout<<"User input variable x"<<endl;
 cin>>inputX;
@@ -15,7 +15,7 @@ cout<<"User input variable y"<<endl;
 cin>>inputY;
 }
 
-int isSame()
+void isSame()
 {
     if (inputX==inputY)
         cout<<"Inputs must be different numbers"<<endl;
@@ -24,17 +24,17 @@ int isSame()
     
 }
 
-int isDivision()
+void isDivision()
 {
-if (inputX > inputY)  (inputX/inputY)=total
+if (inputX > inputY)  (inputX/inputY)=total;
    
 
 else (inputX<inputY)
-    (inputY/inputX)=total
+    (inputY/inputX)=total;
 
 }
 
-int FileWrite()
+void FileWrite()
 {
   
 	ofs.stream file;
@@ -45,4 +45,13 @@ int FileWrite()
     }
     file.close();
     std::cin.get();
+}
+int main(){
+    int inputX,inputY,total;
+ getInput();
+ isSame();
+ isDivision();
+ FileWrite();
+ return 0;
+
 }
