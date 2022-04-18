@@ -12,7 +12,7 @@ int main()
 	string 		studentName;
 	double 		score1, score2;
 	double 		sum, avg;
-	double 		tsum, tavg;
+	double 		totalsum, tavg;
 	
 	ifs.open("students.txt");
 	if (!ifs)
@@ -23,17 +23,17 @@ int main()
 
 	ifs >> numofStudent;
 
-	tsum = 0;
+	totalsum = 0;
 	for(int i=0; i<numofStudent; i++){
 		ifs >> studentName >> score1 >> score2;
 		sum = score1 + score2;
 		avg = sum / 2;
-		tsum += sum;
+		totalsum += sum;
 		cout << studentName << "\t" << score1 << "\t" << score2 << endl;
 		cout << "Sum of Score:\t" << sum << "\t" << "Average Score:\t"<< avg << endl;
 	}
-	tavg = tsum / numofStudent;
-	cout << "Toal Sum of Score:\t" << tsum << "\t" << "Total Average Score:\t"<< tavg << endl;
+	tavg = totalsum / numofStudent;
+	cout << "Toal Sum of Score:\t" << totalsum << "\t" << "Total Average Score:\t"<< tavg << endl;
 	
 
 }
