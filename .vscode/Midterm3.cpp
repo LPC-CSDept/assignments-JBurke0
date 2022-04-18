@@ -25,10 +25,12 @@ int isGreater(int n)
     }
     return 1;
 }
+
+
 int main()
 
 {
-
+    
     srand(time(0));
 
     ofstream output("numbers.txt");
