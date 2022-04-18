@@ -4,7 +4,8 @@
 #include<iomanip>
 
 using namespace std;
-int inputX,inputY;
+int inputX,inputY,total;
+
 int getInput()
 {
 cout<<"User input variable x"<<endl;
@@ -15,27 +16,32 @@ cin>>inputY;
 
 int isSame()
 {
-    if inputX==inputY{
+    if (inputX==inputY)
         cout<<"Inputs must be different numbers"<<endl;
         cout<<"Program will now exit, Bye!"<<endl;
         exit(0);
-    }
+    
 }
 
 int isDivision()
 {
-if inputX > inputY { (inputX/inputY)
+if (inputX > inputY)  (inputX/inputY)=total
    
-}
-else inputX<inputY{
-    (inputY/inputX)
-}
+
+else (inputX<inputY)
+    (inputY/inputX)=total
+
 }
 
-int FileWrite
+int FileWrite()
 {
   
-
 	ofs.stream file;
     file.open("question5.txt")
+    if (file_.is_open()){
+        file_<<"intputX is:"<<iinputX<<"Input Y is:":<< "Total is:"<<total<<;
+
+    }
+    file.close();
+    std::cin.get();
 }
