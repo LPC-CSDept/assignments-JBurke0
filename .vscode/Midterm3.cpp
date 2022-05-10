@@ -1,36 +1,33 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include<iomanip>
+#include <iomanip>
 #include <fstream>
 
 using namespace std;
 
 int getRdnum()
 
-
 {
-    int i,N;
+    int i, N;
     srand(time(0));
-    cout<<rand()%50+1=i;
+    cout << rand() % 50 + 1 = i;
 }
-
 
 int isGreater(int N)
 
-
 {
-    int i,N;
-   if (int i < N )
-srand(time(0));
-    cout<<rand()%50+1=N; 
+    // int i, N;
+    int i;
+    if (int i < N)
+        srand(time(0));
+    cout << rand() % 50 + 1 = N;
     {
-        if (i<N)
+        if (i < N)
             return 0;
     }
     return 1;
 }
-
 
 int main()
 
@@ -42,16 +39,16 @@ int main()
 
     if (!output.is_open())
     {
-        cout << "File Error"<<endl;
+        cout << "File Error" << endl;
         return 0;
     }
-int N;
-  for (int i = 0; i < N; i++)
+    int N;
+    for (int i = 0; i < N; i++)
 
     {
         int num = getRdnum();
         if (isGreater(num))
-            output << num <<endl;
+            output << num << endl;
     }
 
     output.close();
