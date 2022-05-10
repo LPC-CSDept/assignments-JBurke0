@@ -19,6 +19,8 @@ for (int i=0;i<N,i++){
     }
     else if(  |number[i] - number[i-1]|  < 10  &&
  |number[i] - number[i+1]|  < 10  )
+ cout<<number[i]<<endl;
 }
-
+return 1;
+}
       
