@@ -5,6 +5,16 @@
 #include <fstream>
 
 using namespace std;
+
+int findMax(int number[],int from,int to){
+    int i,largest=number[from];
+    for(i=from;i<=to;i++){
+        if(largest<number[i])
+            largest=number[i];
+    }
+    return largest;
+}
+
 int main(){
 const int N=10;
 int part1,part2;
@@ -12,7 +22,7 @@ int number[N]={10,15,0,-25,19,20,25,30,45,20};
  
  part1=findMax(number,0,N/2-1);
 part2=findMax(number,N/2,N-1);
-cout <<"Largest number from the first half: ",<< part1 <<endl;
-cout <<"Largest number from the first half :  ",<< part2 <<endl;
+cout <<"Largest number from the first half: " << part1 <<endl;
+cout <<"Largest number from the first half :  " << part2 <<endl;
  return 0;
 }
