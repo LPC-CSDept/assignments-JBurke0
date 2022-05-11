@@ -16,9 +16,9 @@ int main()
 void printtriangle(int num[][3], int size)
 {
    for (int i=0;i<size;i++){
-       for(int j=0;J<size;j++){
+       for(int j=0;j<size;j++){
            if(j<=i){
-               std::cout<<numbers[i][j]<<endl;
+               std::cout<<num[i][j]<<endl;
 
            }
        }
