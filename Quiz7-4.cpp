@@ -36,9 +36,10 @@ void deleteone(vector<int> &vec)
 
       cin >> usernum;
 
-      // Your Code 
+    vector<int>::iterator it;
+    it=std::find()
 
-      cout << usernum << "is deleted " << deletecnt << " times \n";
+      cout << usernum << "is deleted " << deleteone << " times \n";
  printvector(vec)
  
 }
