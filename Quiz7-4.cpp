@@ -36,18 +36,9 @@ void deleteone(vector<int> &vec)
 
       cin >> usernum;
 
-    void deleteOne(vector<int> &v)
-{
-int usernum;
-cout<<"Enter element to be deleted: ";
-cin>>usernum;
-  
-vector<int>::iterator it;
-  
- 
-  
-}
+      // Your Code 
 
       cout << usernum << "is deleted " << deletecnt << " times \n";
  printvector(vec)
+ 
 }
