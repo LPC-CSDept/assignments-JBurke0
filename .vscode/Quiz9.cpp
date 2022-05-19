@@ -24,7 +24,7 @@ int main()
 	ifs.open("Workers.txt");
 	if (ifs) 
 	{
-		while (ifs >> s.id >> s.lname >> s.fname>>s.deptName >> s.date )
+		while (ifs >> s.id >> s.fname >> s.lname>>s.deptName >> s.date )
 		{
 			s.sum = 0;
 			for(int i=0; i<NUMCOURSE; i++){
@@ -33,4 +33,14 @@ int main()
 			printEmployee(s);
 		}
 	}
+}
+{
+	cout << "Employee ID : " << s.id << "\t"
+		<< "First Name : " << s.fname << "\t";
+        << "Last Name : " << s.lname << "\t";
+	cout << "Salary: ";
+	for(int i=0;i<NUMCOURSE;i++)
+		cout << s.salary[i] << "\t";
+	cout << "Department Name " << s.deptName << "\t";
+    cout<<"Date"<<s.date<<endl;
 }
