@@ -5,20 +5,23 @@
 #include <algorithm>
 #include <iterator>
 using namespace std; 
-const	int 	NUMCOURSE=2;
+
 struct Employee
+
 {
 	int		id;
 	string	fname;
     string lname;
-	int 	salary[NUMCOURSE];	
+	int 	salary[i];	
 	int		deptName;
 	int		date;
 };
 
 void printEmployee(Employee s);
+
 int main()
 {
+    
 	Employee s;
 	ifstream  ifs;
 	ifs.open("Workers.txt");
@@ -26,21 +29,21 @@ int main()
 	{
 		while (ifs >> s.id >> s.fname >> s.lname>>s.deptName >> s.date )
 		{
-			s.sum = 0;
-			for(int i=0; i<NUMCOURSE; i++){
+			
 				ifs >> s.salary[i] ;
-					
-			printEmployee(s);
-		}
+				printEmployee(s);
+		
 	}
 }
 {
 	cout << "Employee ID : " << s.id << "\t"
 		<< "First Name : " << s.fname << "\t";
         << "Last Name : " << s.lname << "\t";
-	cout << "Salary: ";
-	for(int i=0;i<NUMCOURSE;i++)
+	cout << "Salary: "<<"\t";
 		cout << s.salary[i] << "\t";
 	cout << "Department Name " << s.deptName << "\t";
     cout<<"Date"<<s.date<<endl;
 }
+
+if (s.salary <100000)
+cout<<"Employee is in computer dept."<< endl;
