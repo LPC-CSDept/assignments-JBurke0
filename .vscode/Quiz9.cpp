@@ -6,6 +6,7 @@
 #include <iterator>
 using namespace std; 
 
+const	int i=14000;
 struct Employee
 
 {
@@ -38,12 +39,12 @@ int main()
 {
 	cout << "Employee ID : " << s.id << "\t"
 		<< "First Name : " << s.fname << "\t";
-        << "Last Name : " << s.lname << "\t";
+       "Last Name : " << s.lname << "\t";
 	cout << "Salary: "<<"\t";
 		cout << s.salary[i] << "\t";
 	cout << "Department Name " << s.deptName << "\t";
     cout<<"Date"<<s.date<<endl;
 }
 
-if (s.salary <100000)
+if ( (int)s.salary < 100000);
 cout<<"Employee is in computer dept."<< endl;
