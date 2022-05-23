@@ -7,15 +7,24 @@
 using namespace std;
 using namespace std;
 
+
+  
+    void printNumbers(Numbers s);
+    int makeStructArray(SIZE []);
+
 int main()
 {
-    struct[numbers]
+  struct numbers
     {
     const int SIZE1=5;
 const int SIZE2=10;
 int numbers1[SIZE1] = {2, 3, 5, 9, 10};
 int numbers2[SIZE2] = {1, 2, 3, 5, 9, 10, 11, 13, 15, 17};
     }
+    for (int i=0; i<numofSIZE;i++){
+        printNumbers(s[i]);
+    }
+}
     numbers s1 ={2, 3, 5, 9, 10}; 
     numbers s2={1, 2, 3, 5, 9, 10, 11, 13, 15, 17};
 
@@ -24,5 +33,5 @@ int numbers2[SIZE2] = {1, 2, 3, 5, 9, 10, 11, 13, 15, 17};
 	cout << "Total Numbers in size 2 " << s1.[SIZE1] << endl; 
 	cout << "Numbers in size 2" << s2.[SIZE2] << endl; 
 
-	
-}
+	if ( s1.SIZE1 == s2.SIZE2)
+		cout << " The numbers are the same " << endl;
