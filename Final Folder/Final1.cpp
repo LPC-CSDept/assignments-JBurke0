@@ -25,18 +25,18 @@ struct Grade{
 	
 	ofs.open("grades.bin", ios::binary);
 
-	student s1 ={"John", "Joan", 000-00-0001, "A"}; 	// student : data type, s1 : variable 
-	student s2 ={"Bob", "James", 111-11-1112, "B"}; 	// student : data type, s1 : variable 
-    student s3 ={"Sarah", "Joan", 222-22-2223, "C"}; 	// student : data type, s1 : variable 
-	student s4 ={"Mark", "James", 333-33-3334, "B"}; 	// student : data type, s1 : variable
+	grades s1 ={"John", "Joan", 000-00-0001, "A"}; 	
+	grades s2 ={"Bob", "Roberts", 111-11-1112, "B"}; 	
+    grades s3 ={"Sarah", "Towns", 222-22-2223, "C"}; 	
+	grades s4 ={"Mark", "James", 333-33-3334, "B"}; 	
 
 	cout << "Student's First Name " << s1.fname << endl;
-	cout << "Student's Last Name" << s1.lname << endl; 
-	cout << "Student's SSN" << s1.ssn << endl; 
-	cout << "Student's Score" << s1.score << endl; 
+	cout << "Student's Last Name" << s2.lname << endl; 
+	cout << "Student's SSN" << _s3.ssn << endl; 
+	cout << "Student's Score" << s4.score << endl; 
 	
 	
-	ofs.write((char *)&s1, sizeof(student)); 
+	ofs.write((char *)&s1, sizeof(grades)); 
 
 	ofs.close();
 }
